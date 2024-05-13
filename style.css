@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -20,6 +21,9 @@ body {
     box-sizing: border-box;
     border: solid black;
     border-radius: 8px;
-    background-color: bisque;
+    background-color: rgba(22, 236, 255, 0.804);
 }
 
+.hovered {
+    background-color: rgba(33, 30, 26, 0.616);
+}
